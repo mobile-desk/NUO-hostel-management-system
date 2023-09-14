@@ -106,7 +106,7 @@ class RoomAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Utilities)
-admin.site.register(Complaint)
+#admin.site.register(Complaint)
 admin.site.register(UserActivityLog)
 
 
