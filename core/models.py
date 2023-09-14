@@ -42,6 +42,8 @@ class Student(models.Model):
     address_of_guardian = models.CharField(max_length=100)
     phone_number_of_guardian = models.CharField(max_length=100)
     email_of_guardian = models.EmailField(blank=True, null=True)
+    start_year = models.PositiveIntegerField(blank=True, null=True)
+    end_year = models.PositiveIntegerField(blank=True, null=True)
     
 
 
